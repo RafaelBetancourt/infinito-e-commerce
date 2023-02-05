@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -19,7 +20,7 @@ const Footer = () => {
         <div className="card-name">
           <img
             alt="paypal"
-            src="https://pbs.twimg.com/media/EfTZlEnWAAMn1lX.png"
+            src="/images/pp.png"
           />
         </div>
         <div className="card-name">
