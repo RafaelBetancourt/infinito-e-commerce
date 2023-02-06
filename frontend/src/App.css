@@ -40,7 +40,7 @@ textarea:focus {
   padding: 0;
 }
 .Announcement {
-  background-color: #1cb803;
+  background-color: #FF8EC7;
   padding: 10px 0px 6px 0px;
 }
 .Announcement .col-md-6 p {
@@ -60,6 +60,7 @@ textarea:focus {
 .navbar-brand img {
   width: 60%;
 }
+
 .input-group {
   height: 50px;
   width: 90%;
@@ -160,6 +161,11 @@ textarea:focus {
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 }
+
+.border-product:hover {
+  border: 1px solid #a33f8a;
+}
+
 .shopBack {
   height: 250px;
   position: relative;
@@ -232,17 +238,22 @@ textarea:focus {
   width: 460px;
 }
 .form-section input[type="submit"] {
-  background: #1cb803;
+  background: #007892;
   border: 0 none;
   border-radius: 25px;
   color: #fff;
-  height: 52px;
+  height: 53px;
   letter-spacing: 0;
   margin-left: -60px;
-  padding: 0 52px;
+  padding: 2px 52px 0px 52px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
 }
+
+.form-section input[type="submit"]:hover {
+  background: #013c49;
+}
+
 /* CONTACT */
 .contactInfo {
   padding: 70px 0;
@@ -260,13 +271,17 @@ textarea:focus {
   padding: 40px 0;
   box-shadow: 0px 0px 27px 0px rgb(243, 243, 243);
 }
+.box-info:hover {
+  color: #007892;
+}
 .info-image {
   width: 50px;
   height: 50px;
-  border: 2px solid #1cb803;
+  border: 2px solid #007892;
   border-radius: 100px;
   font-size: 20px;
-  color: #1cb803;
+  color: #007892;
+  /* color: #1cb803; */
 }
 .box-info h5 {
   font-weight: bold;
