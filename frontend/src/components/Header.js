@@ -32,7 +32,8 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center display-none">
-              <input type="text" placeholder="Buscar"/>
+              <p>Aqui debe ir la hamburguesa</p>
+              {/* <input type="text" placeholder="Buscar"/> */}
               
               {/* <p>+51959220048</p>
               <p>infinito@gmail.com</p> */}
